@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>File to BASE64</title>
+<link rel="stylesheet" href="style.css">
+<link rel="icon" type="image/png" href="https://raw.githubusercontent.com/Convert-Base64/Converter/main/Favicon.png"/>
+</head>
+<body>
+  <div>
+<center>
+<h1>File to BASE64 Convertor Online</h1>
+<h3>Developed by Eric Pan, 2020</h3><br><br>
+<input type="file" id="files" name="files" style="display: none;" onchange="readFile(event)" />
+<input type="button" value="Browse File" class="upload" onclick="document.getElementById('files').click();" />
+<br><br>
+<element id="fileName" class="fileName"> </element>
+<element id="fileType" class="fileType"> </element>
+<element id="fileSize" class="fileSize"> </element>
+<br><br>
+<input type="text" id="base64" name="base64" class="text" ><button class="upload" onclick="CopyText()">Copy BASE64</button>
+<br><br><br><br><br><br><p>Last Modified: 12/16/2020, 11:26 AM</p>
+</center>
+<script src="script.js"></script>
+</div>
+</body>
+</html>
